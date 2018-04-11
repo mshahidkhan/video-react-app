@@ -14,7 +14,7 @@ class Search extends Component {
       <div className="search">
       <div>
         <header>
-          <h1>MSK Videos</h1>
+          <h1>My Videos</h1>
           <input 
             onChange={this.handleSearchTermChange} 
             value={this.state.searchTerm} 

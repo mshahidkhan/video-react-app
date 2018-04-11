@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn test
+  /usr/local/bin/node /usr/local/bin/yarn dev
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -22,6 +22,7 @@ npm manifest:
       "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"js/**/*.{js,jsx}\"",
       "lint": "eslint **/*.{js,jsx} --quiet",
       "test": "jest",
+      "test:coverage": "jest --coverage",
       "test:update": "jest -u",
       "watch": "webpack --watch"
     },
@@ -7286,7 +7287,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c jest
+  Arguments: -c webpack-dev-server
   Directory: /Users/msk/Documents/msk-dev/video-react-app
   Output:
   
