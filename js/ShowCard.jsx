@@ -23,6 +23,7 @@ const ShowCard = (props) => (
     <h3>{props.title}</h3>
     <h4>({props.year})</h4>
     <p>{props.description}</p>
+    <p>Something</p>
   </div>
 </Wrapper>
 )
