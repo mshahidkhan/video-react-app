@@ -1,7 +1,7 @@
 // @flow
 
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   width: 32%;
@@ -15,19 +15,18 @@ const Image = styled.img`
   width: 46%;
   float: left;
   margin-right: 10px;
-`
+`;
 
-const ShowCard = (props: {poster: string, title: string, year: string, description: string
-}) => (
+const ShowCard = (props: { poster: string, title: string, year: string, description: string }) => (
   <Wrapper>
-  <Image alt={`${props.title} Show Poster `} src={`/public/img/posters/${props.poster}`} />
-  <div>
-    <h3>{props.title}</h3>
-    <h4>({props.year})</h4>
-    <p>{props.description}</p>
-    <p>Something</p>
-  </div>
-</Wrapper>
-)
+    <Image alt={`${props.title} Show Poster `} src={`/public/img/posters/${props.poster}`} />
+    <div>
+      <h3>{props.title}</h3>
+      <h4>({props.year})</h4>
+      <p>{props.description}</p>
+      <p>Something</p>
+    </div>
+  </Wrapper>
+);
 
 export default ShowCard;
