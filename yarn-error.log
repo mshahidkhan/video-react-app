@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn dev
+  /usr/local/bin/node /usr/local/bin/yarn flow
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -7285,9 +7285,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 2
   Command: sh
-  Arguments: -c webpack-dev-server
+  Arguments: -c /Users/msk/Documents/msk-dev/video-react-app/node_modules/.bin/flow
   Directory: /Users/msk/Documents/msk-dev/video-react-app
   Output:
   
